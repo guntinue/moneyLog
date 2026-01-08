@@ -1,9 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import HomeView from '../views/HomeView.vue'
 import TimeStatisticsView from '../views/TimeStatisticsView.vue'
+import BudgetView from '../views/BudgetView.vue'
 
 const routes = [
-    { path: '/', redirect: '/stats' },
-    { path: '/stats', component: TimeStatisticsView }
+    { path: '/', component: HomeView },
+    { path: '/stats', component: TimeStatisticsView },
+    { path: '/budget', component: BudgetView }
 ]
 
 const router = createRouter({
