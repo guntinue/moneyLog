@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="moneyLog.api" options="-parameters" />
+      <module name="moneyLog.api.main" options="-parameters" />
+      <module name="moneyLog.api.test" options="-parameters" />
+      <module name="moneyLog.common" options="-parameters" />
+      <module name="moneyLog.common.main" options="-parameters" />
+      <module name="moneyLog.common.test" options="-parameters" />
+      <module name="moneyLog.money" options="-parameters" />
+      <module name="moneyLog.money.main" options="-parameters" />
+      <module name="moneyLog.money.test" options="-parameters" />
+      <module name="moneyLog.user" options="-parameters" />
+      <module name="moneyLog.user.main" options="-parameters" />
+      <module name="moneyLog.user.test" options="-parameters" />
+    </option>
+  </component>
+</project>
