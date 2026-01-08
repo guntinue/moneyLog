@@ -1,0 +1,2 @@
+rootProject.name = 'moneyLog'
+include 'common', 'user', 'money', 'api'

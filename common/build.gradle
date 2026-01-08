@@ -1,0 +1,7 @@
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+    // Common utilities can be added here
+}
+
+bootJar { enabled = false }
+jar { enabled = true }
